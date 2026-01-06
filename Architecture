@@ -1,0 +1,9 @@
+# Architecture
+
+```mermaid
+flowchart TD
+  B[Browser] --> N[Nginx :8080]
+  N -->|serves static| F[Frontend (Vite build)]
+  N -->|/api proxy| A[Backend :3000]
+  A --> P[(Postgres)]
+  A --> R[(Redis)]
