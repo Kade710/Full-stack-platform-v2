@@ -1,5 +1,9 @@
 # Full Stack Platform (V2) — Dockerized Portfolio
 
+## Status
+Stable  
+This is the current, working version of the platform.
+
 A production-style full-stack app showing:
 - Docker Compose orchestration
 - Nginx reverse proxy (frontend + /api -> backend)
